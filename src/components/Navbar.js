@@ -1,4 +1,5 @@
 import React from 'react';
+// import specific nav components from react
 import { Link, NavLink } from 'react-router-dom'
 
 const Navbar = () => {
@@ -7,7 +8,7 @@ const Navbar = () => {
       <div className="container">
         <Link className="brand-logo" to="/">Poke' Times</Link>
         <ul className="right">
-          <li><NavLink exact to="/">Home</NavLink></li>
+          <li><Link to="/">Home</Link></li>
           <li><NavLink to='/about'>About</NavLink></li>
           <li><NavLink to='/contact'>Contact</NavLink></li>
         </ul>
