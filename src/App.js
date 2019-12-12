@@ -14,7 +14,7 @@ class App extends Component {
           <Navbar />
           <Route exact path='/' component={Home}/>
           <Route path='/about' component={About} />
-          <Route path='/contact' component={Contact} />
+          <Route exact path='/contact' component={Contact} />
           <Route path='/:post_id' component={Post} />
         </div>
       </BrowserRouter>
