@@ -8,3 +8,17 @@ nav a.active{
   border-bottom: 5px solid #333;
   transition: all ease 0.5s;
 }
+
+.home .post img{
+  position : absolute;
+  top: 60px;
+  left: -30px;
+  opacity: 0.6;
+  height : 100px;
+  width : 100px;
+}
+
+.home .post {
+  overflow: hidden;
+  padding-left: 50px;
+}
